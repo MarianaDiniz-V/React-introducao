@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header, .menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header{
+  position: fixed;
+  left: 0;
+  right: 0;
+
+  padding: 50px;
+  background: #E8BBA8;
+  z-index: 1;
+}
+.menu p{
+  margin-left: 80px;
+  font-size: 30px;
+}
+.container{
+  position: relative;
+  /* top: 300px; */
+  z-index: 0;
+  padding: 300px 110px;
+}
+.container h1{
+  margin:0px 500px 55px 0px;
+  font-size: 65px;
+}
+.container p{
+  font-size: 36px;
+  margin-bottom: 110px;
+}
+.galeria{
+  margin-bottom: 150px;
+}
+img{
+  position: relative;
+  z-index: 0;
+}
+.cima{
+  z-index: 1;
+  right: 100px;
+  top: 80px;
+}
+.baixo{
+  z-index: 0;
+  bottom: 80px;
+}
+.central{
+  display: flex;
+  justify-content: center;
+}
